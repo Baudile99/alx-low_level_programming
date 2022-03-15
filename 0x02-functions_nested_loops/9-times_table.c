@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * Times_table -prints tables
-* Return: Always 0.
+* Return:Always 0.
 */
 void times_table(void)
 {
