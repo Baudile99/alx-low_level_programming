@@ -7,6 +7,7 @@
  *@argv: array of arguments
  *Return: returns 0
  */
+
 int main(int argc, char *argv[])
 {
 int i, j, mul;
