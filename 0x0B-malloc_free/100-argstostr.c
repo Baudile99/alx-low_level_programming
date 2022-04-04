@@ -43,6 +43,7 @@ int len = 0;
 if (str != NULL)
 {
 while (str[len])
-len++;}
+len++;
+}
 return (len);
 }
