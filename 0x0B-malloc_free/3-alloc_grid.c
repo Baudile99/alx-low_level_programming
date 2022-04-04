@@ -34,8 +34,9 @@ free(array);
 return (NULL);
 }
 }
-return (array)
-}else
+return (array);
+}
+else
 {
 return (NULL);
 }
