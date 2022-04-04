@@ -35,8 +35,7 @@ return (NULL);
 }
 }
 return (array)
-}
-else
+}else
 {
 return (NULL);
 }
