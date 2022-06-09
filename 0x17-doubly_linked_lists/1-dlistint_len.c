@@ -6,13 +6,13 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-size_t nodes = 0;
-if (!h)
-return (0);
-while (h)
+int counter = 0;
+if (h == NULL)
+return (counter);
+while (h != NULL)
 {
-nodes++;
+counter++;
 h = h->next;
 }
-return (nodes);
+return (counter);
 }
